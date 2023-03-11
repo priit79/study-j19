@@ -5,11 +5,11 @@ import {MatTableModule} from "@angular/material/table";
 import { CreateSchoolComponent } from './create-school/create-school.component';
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
-
 @NgModule({
   declarations: [
     SchoolDashboardComponent,
-    CreateSchoolComponent
+    CreateSchoolComponent,
+
   ],
   imports: [
     CommonModule,
